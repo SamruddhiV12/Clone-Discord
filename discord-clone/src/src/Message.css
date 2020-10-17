@@ -1,0 +1,30 @@
+.message {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 30px;
+    color: white;
+
+}
+.message:hover {
+    background-color: #2f313573;
+}
+.message__info {
+    margin-left: 20px;
+
+}
+
+.message__info > h4 {
+    margin-bottom: 0px;
+}
+
+.message__info > p {
+    margin-top: 0px;
+}
+
+.message__timestamp {
+    color: gray;
+    padding-left: 20px;
+    font-size: x-small;
+}
+
