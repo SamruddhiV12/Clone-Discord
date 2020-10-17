@@ -42,7 +42,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__top">
-                <h2>Dead_Deed</h2>
+                <h2>Samruddhi</h2>
                 <ExpandMoreIcon />
             </div>
 
@@ -86,10 +86,10 @@ function Sidebar() {
                 </div>
             </div>
             <div className="sidebar__profile">
-                <Avatar onClick={() => auth.signOut()} src={user.photo} />
+                <Avatar onClick={() => auth.signOut()} src="https://media-exp1.licdn.com/dms/image/C4D03AQE3y9f9rBa6YA/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=A7JW7L3i6ZNiBOthnVrvJOR_dPBm4iXiC5DYxkd-pck" />
                 <div className="sidebar__profileInfo">
-                    <h3>Dead_Deed</h3>
-                    <p>#1234</p>
+                    <h3>Samruddhi</h3>
+                    <p>#1204</p>
                 </div>
                 <div className="sidebar__profileIcons">
                     <MicIcon fontSize="small" />

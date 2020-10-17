@@ -13,11 +13,11 @@
     border-bottom: 1px solid black;
 }
 
-.bar__Mid {
+/* .bar__Mid {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 17px;  
 
-}
+} */
