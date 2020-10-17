@@ -1,0 +1,23 @@
+.bar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.05;
+    background-color: #23272A;
+    border-right: 5px solid #23272A;
+    height: 100vh;
+}
+
+.bar__Top {
+    display: flex;
+    padding: 17px;
+    border-bottom: 1px solid black;
+}
+
+.bar__Mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;  
+
+}
